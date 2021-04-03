@@ -61,71 +61,26 @@ The UiPath Community Edition has the following features:
 
 
 To get your Community Edition of UiPath Studio, type the following link
-in your
-browser: [https://www.UiPath.com/community](https://www.uipath.com/community){.ulink}:
+in your browser: [https://www.UiPath.com/community](https://www.uipath.com/community){.ulink}:
 
 
-1.  A **`Community Edition`** page opens. Click on
-    **`Get Community Edition`**:
+1.  Signup using one of the options.
 
-
- 
-
-
-![](./images/0f59d9f7-1a75-40be-bf34-d71afd48b702.png)
-
-
-
-2.  On the next page, you must register yourself in order to download
+2.  You must register yourself in order to download
     the Community Edition. So, use the correct details and remember them
     because the same email will be used to activate the software. Fill
     in the following details: **`First Name*`**, **`Last Name*`**,
-    and **`Email*`**. Filling in the **`Twitter User`** field is not
-    mandatory, but it is good to provide it:
+    and **`Email*`**:
+
+3.  Click on the link to download UiPath Studio. You may also directly download UiPath Studio. 
+
+4.  Once the download is complete, open the downloaded file, `UiPathStudioSetup.Exe`.
 
 
-
-![](./images/4ea8b8eb-a06a-47b0-93f5-10a25710e912.png)
-
-
-Click on **`REQUEST COMMUNITY EDITION`**.
-
-
-3.  You will be directed to a page that requests you to check your email
-    for downloading the link. Click on the link to download UiPath
-    Studio. You may also directly download UiPath Studio. Just click on
-    the word [here]{.underline} in **`download it here`**, as shown in
-    the following screenshot:
-
-
-
-![](./images/c3c1dce4-7a57-44c7-83bf-08230f546da6.png)
-
-
-
-4.  Once the download is complete, open the downloaded
-    file, `UiPathStudioSetup.Exe`.
-
-
-
-5.  The installation will then begin. Once the installation is complete,
-    a welcome message will be displayed. Click on the **`Start Free`**
-    option:
-
+5.  The installation will then begin. Once the installation is complete, options will be displayed. Click on the **`UiPath Studio`** option:
 
 
 ![](./images/e22d8d0c-3032-49dc-ad69-17f46347eb86.png)
-
-
-
-6.  Then, as requested, enter your **`Email Address`** once again and
-    click on **`Activate`**. Please remember to use the same email ID
-    that you used to download the software. This email ID will be bound
-    to the computer. The activation will happen online. An offline
-    activation option is not available for the Community Edition.
-7.  A message will then be displayed on the screen informing you of the
-    successful installation. Close this window.
-
 
 
 **Note:**
