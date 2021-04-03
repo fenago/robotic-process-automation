@@ -27,7 +27,7 @@ Design RPA solutions to perform a wide range of transactional tasks with minimal
 
 Labs for this course are listed below:
 
-1. What is Robotic Process Automation?
+1. What is Robotic Process Automation? (read-only)
 2. Record and Play
 3. Sequence, Flowchart, and Control Flow
 4. Data Manipulation
