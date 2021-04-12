@@ -1,4 +1,7 @@
 
+<img align="right" src="./logo.png">
+
+
 
 Lab 6. Tame that Application with Plugins and Extensions
 ---------------------------------------------------------------------
