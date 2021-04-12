@@ -37,6 +37,9 @@ Labs for this course are listed below:
 8. Exception Handling, Debugging, and Logging
 9. Managing and Maintaining the Code
 10. Deploying and Maintaining the Bot
+11. Help Desk Ticket Generation
+12. CRM Automation
+13. Using AI and RPA for Invoice Processing
 
 
 ### About
