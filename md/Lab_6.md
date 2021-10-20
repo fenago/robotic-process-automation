@@ -7,13 +7,7 @@ Lab 6. Tame that Application with Plugins and Extensions
 ---------------------------------------------------------------------
 
 
-
-So far, you have learned how to record steps to automate and also learn
-about control flow, and the use of variables and data tables. The most
-important part was understanding and mastering controls. Unless you are
-able to identify controls of an application properly, it is not possible
-to successfully automate a process. Now, in this lab, we will step
-up to learn how to use external plugins and extensions. UiPath has many
+In this lab, we will step up to learn how to use external plugins and extensions. UiPath has many
 plugins and extensions to ease UI automation, apart from basic
 extraction and interaction with the desktop screen. These plugins allow
 us to directly interact with those applications or ease UI automation.
@@ -460,26 +454,6 @@ activities.
 
 PDF plugin
 ----------------------------
-
-
-
-**PDF** stands for **Portable Document Format**
-and it is used to keep the document platform
-independent. Why do we use PDF?
-
-Suppose we have a Microsoft Word 2007
-application installed in our system and we make a `.doc` file.
-This doc file can be opened on any system. Consider a system with
-Microsoft Word 2017 installed on it. If we view that doc file in this
-application, the format of the application is not going to be the same.
-This is because both Microsoft applications have different sets of
-architecture and specifications. Their format is not the same.
-
-Here, PDF comes into action. It remains the same across all systems.
-That is why all confidential documents are sent or received using PDF.
-Also, if you do not want to change the behavior of the document across
-different platforms, you should convert the document into the PDF
-format.
 
 To use any PDF activities, you have to install the PDF NuGet package. To
 check whether the PDF package is installed or not simply search for

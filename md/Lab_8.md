@@ -327,10 +327,8 @@ the top of the UiPath window, we can see various available methods of
 debugging inside the **`EXECUTE`** block, as shown in the following
 screenshot:
 
-**[]**
 
-
-***![](./images/90e76290-7f6a-4626-bd27-e851e8ce73f0.png)***
+![](./images/90e76290-7f6a-4626-bd27-e851e8ce73f0.png)
 
 
 As shown in the preceding screenshot, there are various techniques for
@@ -526,7 +524,7 @@ way:
 
 
 1.  Just go to this
-    link: [https://www.UiPath.com/contact-technical-and-activations](https://www.uipath.com/contact-technical-and-activations){.ulink}.
+    link: [https://www.UiPath.com/contact-technical-and-activations](https://www.uipath.com/contact-technical-and-activations).
 2.  You will be re-directed to a page where you have to fill out a
     simple form containing some basic details and then upload the file
     in which the error is encountered, as shown in the following

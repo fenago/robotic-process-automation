@@ -6,14 +6,7 @@ Lab 2. Record and Play
 -----------------------------------
 
 
-The facility of recording user steps on a computer and playing them back
-has made **Robotic Process Automation** (**RPA**)
-highly successful. Without this feature, the adoption of the technology
-might have been very slow and it would have
-been seen as another automation/scripting tool.
-
-In the previous lab, we gained a basic understanding of Robotic
-process automation. In this lab, we will see how to use the recorder
+In this lab, we will see how to use the recorder
 as the first step of automation in our journey. Before that, let us
 understand the UiPath tool and learn how to install it (you can only use
 the recorder after installing it). We will cover:
@@ -22,11 +15,8 @@ the recorder after installing it). We will cover:
 -   The UiPath stack and components of the platform.
 -   How to download and install UiPath components.
 -   Understanding the Project Studio in detail. The Project Studio is
-    the place where developers spend most of their time configuring the
-    Robots.
--   The recorder, with two step-by-step examples to quickly master
-    record and play.
-
+    the place where developers spend most of their time configuring the Robots.
+-   The recorder, with two step-by-step examples to quickly master record and play.
 
 
 UiPath stack
@@ -42,7 +32,6 @@ three basic components in UiPath:
 1.  UiPath Studio
 2.  UiPath Robot
 3.  UiPath Orchestrator
-
 
 
 Downloading and installing UiPath Studio
@@ -61,7 +50,7 @@ The UiPath Community Edition has the following features:
 
 
 To get your Community Edition of UiPath Studio, type the following link
-in your browser: [https://www.UiPath.com/community](https://www.uipath.com/community){.ulink}:
+in your browser: [https://www.UiPath.com/community](https://www.uipath.com/community):
 
 
 1.  Signup using one of the options.
@@ -183,10 +172,7 @@ You can either open an old project or create a new one. Let us say we
 are making a new project. We click on **`Blank`** and name it. We will
 then be directed to a screen, which will display the following:
 
-[]
-
-
-**![](./images/2e0797d3-658a-4c2c-be31-20e7e648a75d.png)**
+![](./images/2e0797d3-658a-4c2c-be31-20e7e648a75d.png)
 
 
 
@@ -297,13 +283,9 @@ for making any changes, if required. You need to select an activity
 first and then go to the **`Properties`** panel to view or change any of
 its properties:
 
-[]
 
 
-**![](./images/7c40b7b1-a46f-46ac-88e1-578454bbb620.png)**
-
-
-** **
+![](./images/7c40b7b1-a46f-46ac-88e1-578454bbb620.png)
 
 
 
@@ -328,10 +310,8 @@ the details of your current project and open it in a
 **`Windows Explorer`** window. It is located on the extreme left-hand
 side of the design panel, below the **`Library`** panel:
 
-[]
 
-
-**![](./images/203bd5ea-25ed-4d53-938b-88d3a647dcc4.png)**
+![](./images/203bd5ea-25ed-4d53-938b-88d3a647dcc4.png)
 
 
 
@@ -825,7 +805,7 @@ applications.
 **Note:**
 
 **`Preparation`**: Open your favorite browser, navigate
-to** **[https://gmail.com](https://gmail.com/){.ulink}, and
+to** **[https://gmail.com](https://gmail.com/), and
 keep this browser open.
 
 
@@ -1036,7 +1016,7 @@ as shown in the following screenshot:
 
 
 In the last step, closing the Recycle Bin folder by pressing
-the** **`cross`**** button, you may have to indicate an
+the **`cross`**** button, you may have to indicate an
 anchor.
 
 Save it and press [*F5*] to run it. Voila! It runs

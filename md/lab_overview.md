@@ -1,7 +1,7 @@
 <img align="right" src="./logo.png">
 
 
-<h2><span style="color:red;"></span>Learning Robotic Process Automation</h2>
+<h2><span style="color:red;">Learning Robotic Process Automation</span></h2>
 
 ### Description
 
@@ -27,7 +27,7 @@ Design RPA solutions to perform a wide range of transactional tasks with minimal
 
 Labs for this course are listed below:
 
-1. What is Robotic Process Automation? (read-only)
+1. What is Robotic Process Automation? (No Lab)
 2. Record and Play
 3. Sequence, Flowchart, and Control Flow
 4. Data Manipulation

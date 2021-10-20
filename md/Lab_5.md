@@ -5,14 +5,6 @@
 Lab 5. Taking Control of the Controls
 --------------------------------------------------
 
-
-
-By now, you should be able to make fairly complex workflows and take
-various paths using control flows. You should now know how to store and
-evaluate variables to make a decision. I hope you are using a recorder
-extensively, as we will revisit the recorder in this lab to learn
-more about it.
-
 In this lab, we will go into detail on how we can interact with the
 controls in the UI. Sometimes, you may need to click on a particular
 button or extract information from a textbox. Either we take some action
@@ -541,7 +533,7 @@ scroll the Flipkart main page:
 2.  Double-click on the ****`Send hotkey`**** activity. Click
     on the **`Indicate on screen`** and indicate the required page (in
     our
-    case, [https://www.flipkart.com](https://www.flipkart.com/){.ulink}). You
+    case, [https://www.flipkart.com](https://www.flipkart.com/)). You
     can assign any key by marking the checkboxes. You can also specify
     the key by selecting a key from the drop-down list. In our example,
     we have chosen the **`down`** key:
@@ -930,7 +922,7 @@ Create a **`Blank`** project. Drag and drop a **`Flowchart`** activity.
 Now, click on the **`Recording`** icon and choose **`Web`** recording.
 You can record your actions on the web on your own and then save it. In
 our case, we have opened a web page using Google Chrome and logged in to
-[http://www.google.com](http://www.google.com/){.ulink}. Then, we
+[http://www.google.com](http://www.google.com/). Then, we
 started the recording by clicking on the Record button of the web
 recorder. Next, we typed some text in the search bar of Google and
 performed the Click activity. Then, we pressed the

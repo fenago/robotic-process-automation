@@ -586,10 +586,7 @@ file. They are:
     the **`Activities`** panel, as shown in the following screenshot:
 
 
-[]
-
-
-**![](./images/43843c9c-864b-4972-9f15-6ad945febd02.png)**
+![](./images/43843c9c-864b-4972-9f15-6ad945febd02.png)
 
 
 After adding credentials, type the required values in the

@@ -4,14 +4,6 @@
 Lab 3. Sequence, Flowchart, and Control Flow
 ---------------------------------------------------------
 
-
-
-So far we have learned what RPA is, and we have seen how simple it is to
-[*train*] a UiPath Robot by recording the activities of a
-task and running it. Automating mundane routine tasks is very easy with
-UiPath using the recorder. Before we start automating complex tasks, let
-us learn how to control the flow of activities from one to another.
-
 In this lab, we will learn about methods to lay down activities in
 an orderly fashion and how to control the flow. These are basic to any
 kind of programming. We will learn about putting activities in

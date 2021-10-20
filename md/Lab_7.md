@@ -116,10 +116,9 @@ Hotkey trigger works for shortcut keys. Suppose we want a certain workflow to wo
 In such a case, we will use the
 **`Hotkey trigger`**:
 
-[*[]*]
 
 
-***![](./images/ac89a46c-66fa-4327-bbe0-517d778b65bd.png)***
+![](./images/ac89a46c-66fa-4327-bbe0-517d778b65bd.png)
 
 
 
@@ -271,10 +270,7 @@ clicked:
     under it:
 
 
-**[]**
-
-
-***![](./images/a8f67ea0-5191-4e08-b0e9-f7f658180552.png)***
+![](./images/a8f67ea0-5191-4e08-b0e9-f7f658180552.png)
 
 
 Since we are using the **`Hotkey trigger`**, we have dropped the
@@ -324,10 +320,7 @@ The output, that is, the response entered by the user, is saved as a new
 variable called `Subject?` as shown in the following
 screenshot:
 
-**[]**
-
-
-***![](./images/c524fb43-d881-4a5d-815f-482e6cc39dac.png)***
+![](./images/c524fb43-d881-4a5d-815f-482e6cc39dac.png)
 
 
 In the third input dialog, the user has to input the message/mail he or
