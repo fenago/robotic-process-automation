@@ -698,31 +698,6 @@ to **`UiPath.Excel.Activities`**:
 ### Word plugin
 
 
-
-Microsoft Word is often called simply Word or
-MS Word. Microsoft Word is a widely used commercial word processor
-designed by Microsoft. Microsoft Word is a component of the Microsoft
-Office suite.
-
-Microsoft Word is available for both Windows and Mac operating systems.
-
-The following are the Microsoft Word features:
-
-
-1.  It makes it possible for everything displayed on the screen to
-    appear in the same way when printed or moved to another program.
-2.  Microsoft Word has a built-in dictionary for spell checking.
-3.  Text-level features such as bold, underline, italic, and strike.
-
-
- 
-
-
-4.  Page-level features such as paragraphing and justification.
-5.  Microsoft Word is compatible with many other programs, the most
-    common being the other members of the Office suite.
-
-
 In UiPath Studio, there is a NuGet package called
 **`UiPath.Word.Activities`**. Word activity is pre-installed in UiPath
 Studio. In case it is not installed, we have to install it manually.
