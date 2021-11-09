@@ -1,5 +1,5 @@
-Lab 2: Sequence, Flowchart, and Control Flow
-============================================
+Lab 2: Sequence, Flowchart and State Machines
+=============================================
 
 
 #### Lab Solutions
@@ -42,6 +42,9 @@ his hair color, and then displays his answers, do the following:
 5.  Select the first **Input Dialog** and, in the **Properties** panel,
     add a **Label** asking for the first name of the user, and a custom
     **Title**.
+
+![](./images/seq.png)
+
 6.  In the **Result** field add the 
     FirstName variable. This indicates that this variable is going to be
     updated with the value added by the user at this point.
@@ -114,9 +117,7 @@ must guess. To create such an automation, do the following:
 5.  Add an [**Assign**]
     activity to the **Designer** panel, and connect it to the **Start**
     node.
-6.  In the **Properties** panel, in the **To** field add the
-    
-    RandomNumber variable.
+6.  In the **Properties** panel, in the **To** field add the RandomNumber variable.
 7.  In the **Value** field, type 
     new Random().Next(1,999).
 
@@ -130,33 +131,36 @@ must guess. To create such an automation, do the following:
 8.  Add an [**Input Dialog**] activity
     to the **Designer** panel and connect it to the **Assign** one.
 9.  In the **Properties** panel, in the **Label** field, add the
-    
     Message variable.
 10. In the **Result** field, add the 
     GuessNumber variable. This activity asks and stores the user’s
     guesses in the 
     GuessNumber variable.
+
+![](./images/flow1.png)
+
 11. Add a [**Flow Decision**]
     activity and connect it to the **Input Dialog**. This activity
     enables you to tell the user if he correctly guessed the number or
     not.
 12. In the **Properties** panel, in the **Condition** field, type
     
-    GuessNumber = 
-    RandomNumber. This enables you to verify if the number added by the
+   `GuessNumber =  RandomNumber`
+    
+    This enables you to verify if the number added by the
     user is the same as the randomly-generated one.
 13. Add a [**Message Box**] activity and
     connect it to the **True** branch of the **Flow Decision**.
 14. In the **Properties** panel, in the **Text** field, type
-    "Congratulations! You guessed correctly! The number was " +
-    
-    RandomNumber.ToString + ".". This is the message that is going to be
+    `"Congratulations! You guessed correctly! The number was " + RandomNumber.ToString + "."`
+    This is the message that is going to be
     displayed if the user correctly guessed the number.
 15. Add a new **Flow Decision** activity and connect it to the **False**
     branch of the previously added **Flow** Decision.
 16. In the **Properties** panel, in the **Condition** field, type
-    GuessNumber \> 
-    RandomNumber. This activity enables you to check if the number the
+    `GuessNumber > RandomNumber`
+    
+    This activity enables you to check if the number the
     user added is bigger than the randomly-generated one.
 17. In the **DisplayName** field, type **Comparison**. This enables you
     to easily to tell the difference between the two **Flow Decisions**
@@ -165,19 +169,21 @@ must guess. To create such an automation, do the following:
     the **Comparison** activity.
 19. In the **To** field, type the 
     Message variable, and in the **Value** field, type a message
-    indicating that the guess was too high, such as "Too big. Try
-    again.".
+    indicating that the guess was too high, such as:
+    `"Too big. Try again."`
+
 20. Select the **Assign** activity and press Ctrl+C. The entire activity
     and its properties are copied to the Clipboard.
 21. Press Ctrl + V. A duplicate of the previous **Assign** activity is
     displayed.
 22. Connect it to the **False** branch of the **Comparison** activity
-    and, in the **Properties** panel, in the **Value** field, type "Too
-    small. Try again.".
+    and, in the **Properties** panel, in the **Value** field, type:
+    `"Too small. Try again."`
+
 23. Connect the **Assign** activities created at steps 18-22 to the
     **Input Dialog**. A loop is created, asking the user to type a
-    smaller or bigger number, until he guesses correctly.\
-     The final project should look as in the screenshot below.
+    smaller or bigger number, until he guesses correctly.
+    The final project should look as in the screenshot below.
 
 ![](./images/5becb6f-image_58.png "Click to close...")
 
