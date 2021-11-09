@@ -1,17 +1,17 @@
 {
-  "name": "Basic Automation",
+  "name": "BlankProcess",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.11.3]",
-    "UiPath.Mail.Activities": "[1.12.1]",
-    "UiPath.System.Activities": "[21.10.0]",
-    "UiPath.UIAutomation.Activities": "[21.10.1]"
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.2]",
+    "UiPath.System.Activities": "[21.10.2]",
+    "UiPath.UIAutomation.Activities": "[21.10.3]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "21.10.0.0",
+  "studioVersion": "21.10.3.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -39,13 +39,13 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "19ed8c66-a17d-4e17-ae7b-2ab83b596e9a",
+      "uniqueId": "22f464b6-fad4-4f89-9b9f-a49471738883",
       "input": [],
       "output": []
     }

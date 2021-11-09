@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "dgSpecHash": "798OHo5h6Guhf8ySp3YDbJ2KuhUP9Ey+/byVAoAuV/tq9by+bUESfej3Ylt37tsM807JBxOf7iwebpfsfdXN4g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fenago\\Desktop\\robotic-process-automation\\Solutions\\Lab02\\FirstSequence\\.local\\",
+  "expectedPackageFiles": [
+    "C:\\Users\\fenago\\.nuget\\packages\\avalonedit\\5.0.3\\avalonedit.5.0.3.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\bouncycastle\\1.8.1\\bouncycastle.1.8.1.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\csvhelper\\2.13.5\\csvhelper.2.13.5.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\documentformat.openxml\\2.5.0\\documentformat.openxml.2.5.0.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\extended.wpf.toolkit.2.8.0.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\humanizer.core\\2.4.2\\humanizer.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\interop.domino.dll\\1.0.0\\interop.domino.dll.1.0.0.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\microsoft.aspnet.signalr.client.2.4.0.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\microsoft.exchange.webservices.2.2.0.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.19\\microsoft.rest.clientruntime.2.3.19.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071\\microsoft.visualstudio.ole.interop.7.10.6071.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\npoi\\2.4.1\\npoi.2.4.1.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\sharpziplib\\1.0.0\\sharpziplib.1.0.0.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\uipath\\19.4.7054.14370\\uipath.19.4.7054.14370.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\uipath.excel.activities\\2.5.3\\uipath.excel.activities.2.5.3.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\uipath.mail.activities\\1.4.0\\uipath.mail.activities.1.4.0.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\uipath.system.activities\\19.4.0\\uipath.system.activities.19.4.0.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\uipath.uiautomation.activities\\19.4.1\\uipath.uiautomation.activities.19.4.1.nupkg.sha512",
+    "C:\\Users\\fenago\\.nuget\\packages\\uipath.vision\\1.5.0\\uipath.vision.1.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\fenago\\Desktop\\robotic-process-automation\\Solutions\\Lab02\\FirstSequence\\.local",
+      "message": "UiPath.System.Activities 19.4.0 depends on Microsoft.Rest.ClientRuntime (>= 2.3.10) but Microsoft.Rest.ClientRuntime 2.3.10 was not found. An approximate best match of Microsoft.Rest.ClientRuntime 2.3.19 was resolved.",
+      "libraryId": "Microsoft.Rest.ClientRuntime",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win10-x64"
+      ]
+    }
+  ]
+}
