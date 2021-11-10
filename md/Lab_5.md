@@ -1,5 +1,5 @@
 
-Lab 8: Using Mouse and Keyboard Automation
+Lab 5: Using Mouse and Keyboard Automation
 ===========================================
 
 

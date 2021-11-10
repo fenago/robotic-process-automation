@@ -30,11 +30,10 @@ Labs for this course are listed below:
 2. Sequence, Flowchart and State Machines
 3. UiPath Variables
 4. Automatic Recording
-5. Data Scraping
+5. Using Mouse and Keyboard Automation
 6. Control Flow
 7. Managing Dependencies
-8. Using Mouse and Keyboard Automation
-9. Global Exception Handler
+8. Global Exception Handler
 
 ### About
 
