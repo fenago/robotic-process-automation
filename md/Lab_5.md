@@ -4,7 +4,7 @@ Lab 5: Using Mouse and Keyboard Automation
 
 
 #### Lab Solutions
-Lab solution(s) are present in `Solution\Lab08` folder.
+Lab solution(s) are present in `Solution\Lab05` folder.
 
 To exemplify the automation of a process by using activities that
 simulate mouse and keyboard input, we created an automation that
@@ -48,3 +48,10 @@ actions similar to human ones:
 12. Press F5. The automation is executed. The IP address, subnet mask
     and default gateway for all adapters are displayed in the Command
     Prompt.
+
+
+**Task:**
+
+Create new sequence to open "Powershell" and get System Info as shown below:
+
+![](./images/info.png)
