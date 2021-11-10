@@ -33,16 +33,21 @@ the same project for the two.
 > text. You can also select this option after the recording is finished,
 > in the **Properties** panel of the [**Type Into**] activity.
 
-7.  From the **Edit** menu, select **Replace...**. The **Replace** window is
-    displayed.
+7.  From the **Edit** menu, select **Replace...**. The **Replace** window is displayed.
+
+**Note:** If you get following screen, select the checkbox and click **No**. After that, do the above step again.
+![](./images/n3.png)
 
 8.  Enter text to replace and click **Replace All**.
-
 ![](./images/n1.png)
 
 9.  Press Esc two times. You exit the recording view and the saved
     project is displayed in the **Designer** panel.
-10. Press F5. The automation is executed as expected.
+
+8.  Go back to notepad and clear text from notepad and from textboxes as shown below:
+![](./images/n2.png)
+
+10. Go back to UiPath and Press `F5`. The automation is executed as expected.
 
 The two screenshots below display part of the resulted projects for the
 **Basic** (first screenshot) and **Desktop** (second screenshot)
