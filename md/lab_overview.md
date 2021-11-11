@@ -18,9 +18,7 @@ Design RPA solutions to perform a wide range of transactional tasks with minimal
 - Understand Robotic Process Automation technology
 - Learn UiPath programming techniques to deploy robot configurations
 - Explore various data extraction techniques
-- Learn about integrations with various popular applications such as SAP and MS Office
-- Debug a programmed robot including logging and exception handling
-- Maintain code version and source control
+- Exception handling
 
 ### Labs
 
@@ -33,6 +31,11 @@ Labs for this course are listed below:
 5. Using Mouse and Keyboard Automation
 6. Control Flow
 7. Managing Dependencies
+8. Exception Handling in UiPath
+9. Managing Dependencies
+10. Using Arguments
+11. Using Mail plugin
+12. Read PDF Files
 
 
 ### About
