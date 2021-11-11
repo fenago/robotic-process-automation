@@ -33,7 +33,7 @@ Labs for this course are listed below:
 5. Using Mouse and Keyboard Automation
 6. Control Flow
 7. Managing Dependencies
-8. Global Exception Handler
+
 
 ### About
 
