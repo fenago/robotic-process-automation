@@ -19,9 +19,6 @@ Let’s begin.
 #### Lab Solutions
 Lab solution(s) are present in `Solution\Lab09` folder.
 
-
-
-
 **Creating a Library**
 
 1.  Launch Studio. In the HOME Backstage view, click **Library** to
@@ -46,6 +43,8 @@ Lab solution(s) are present in `Solution\Lab09` folder.
 **Note:** Copy following excel files in the folder where you project is created. These files are present in are present in `Solution\Lab09` folder.
 
 ![](./images/lib8.png)
+
+**ProTip** You can open excel files here if you like to view them: `https://products.aspose.app/cells/viewer`
 
 
 **Adding Excel Activities**

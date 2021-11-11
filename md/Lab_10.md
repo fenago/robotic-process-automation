@@ -9,10 +9,10 @@ under **Workflow \> Invoke** and they enable you to browse for a
 project, and import and edit their arguments.
 
 
+#### Lab Solutions
+Lab solution(s) are present in `Solution\Lab10` folder.
 
-Example of Using an Argument
-
-[](https://docs.uipath.com/studio/docs/using-arguments#example-of-using-an-argument)
+**Using an Argument**
 
 To exemplify how to use an argument in an automation with an **Invoke Workflow File** activity, we are going to create two separate sequences.
 A very simple one in which to assign a value to an argument, and a
@@ -23,7 +23,7 @@ second that invokes it and displays the value in a message box.
     `out_StoreValue`.
 3.  From the **Direction** list, select **Out**, and do not change the
     **Argument Type** from **String**.
-4.  Add an [**Assign**](https://activities.uipath.com/docs/assign)
+4.  Add an [**Assign**]
     activity to the **Designer** panel.
 5.  In the **Properties** panel, in the **To** field, add the
     `out_StoreValue` argument.
@@ -36,7 +36,7 @@ second that invokes it and displays the value in a message box.
 7.  Create a new sequence.
 8.  Create a string variable,
     FinalValue.
-9.  Add an [**Invoke Workflow File**](https://activities.uipath.com/docs/invoke-workflow-file)
+9.  Add an [**Invoke Workflow File**]
     activity to the **Designer** panel.
 10. On the activity, click the **Browse (…)** button and browse for the
     previously created sequence.
@@ -48,7 +48,7 @@ second that invokes it and displays the value in a message box.
     the value from it is going to be stored in the current project
     through the
     FinalValue variable.
-13. Add a [**Message Box**](https://activities.uipath.com/docs/message-box) activity
+13. Add a [**Message Box**] activity
     under the **Invoke Workflow File**.
 14. In the **Properties** panel, in the **Text** field, type
     FinalValue + " This is how", for example.\

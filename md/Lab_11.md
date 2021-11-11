@@ -17,24 +17,40 @@ next to **`UiPath.Mail.Activities`**. This is because the Mail activity is alrea
 it is not installed, an **`Install`** button will appear next to the
 **`UiPath.Mail.Activities`**:
 
+![](./images/p3.png)
 
-![](./images/be1350d3-0af4-412b-9197-e0456e9f201e.png)
+There are various mail activities that are used when working with UiPath Studio:
 
-
-There are various mail activities that are used when working with UiPath
-Studio:
-
-
-![](./images/25857378-b109-46d6-a292-d4dfd6ae8cf7.png)
+![](./images/p4.png)
 
 
-Some frequently used Mail activities are:
+#### Lab Solutions
+Lab solution(s) are present in `Solution\Lab11` folder.
 
+In this lab, we will send email using following activity:
 
-1.  **SMTP**: It is used to send
-    mail messages:
+**SMTP**: It is used to send mail messages:
+    -  **Send SMTP Mail messages** activity: This activity
+        is used to send a mail to another mail.
     
-    -   **Send SMTP Mail messages** activity: This activity
-        is used to send a mail to another
-        mail.
-    
+
+Steps:
+
+1) Create a blank prcoess and add above activity
+
+2) Enter all details as shown in below screenshot:
+
+```
+Gmail SMTP Server:	"smtp.gmail.com"
+SMTP port:			587
+SMTP username:		"upathdemo@gmail.com"
+SMTP password:		"Robotics2021@"
+```
+
+![](./images/p2.png)
+
+3) You can use you email and run the activity. Verify that email is received in you inbox.
+
+**E-mail**
+
+![](./images/p1.png)

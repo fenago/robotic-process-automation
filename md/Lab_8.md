@@ -32,15 +32,9 @@ Exception Handling in UiPath
 ----------------------------
 
 
-Create a new process called**Exception\_Handling\_Example**\
+Create a new process called **Exception\_Handling\_Example**\
 
 ![](./images/exception-handling-process-rpa-uipath.png)
-
-![](./images/e1.png)
-![](./images/e2.png)
-![](./images/e3.png)
-![](./images/e4.png)
-![](./images/e5.png)
 
 
 Once the **Exception\_Handling\_Example** process opened in the UiPath
@@ -73,28 +67,24 @@ By creating an error scenario, we will understand how the exception
 happens and then how to handle this exception. Save and run the
 sequence, You will get an **Exception.**
 
-![](./images/invalid-element-exceptio-rpa-uipath.png)
-
 These are very realistic scenarios in our production, we have to handle
 this kind of run-time exceptions happened in our production. These
 exceptions can be handled with the help of **Try Catch Block.**
 
 Add **Try Catch activity** inside the sequence and move the **Type Into activity** inside the **Try block**. And then select the exception type
 which you are facing. If the exception type which you are facing is not
-present in the list then click on the **Browser for Types...** and
+present in the list then click on the **System.Exception** and
 search for it.
-![](./images/click-on-brwoser-type-rpa-uipath.png)\
 
-I am clicking on **Browser for Types...** and search for
-**InvalidUiElementException**and then **click on ok**
+![](./images/click-on-brwoser-type-rpa-uipath.png)
 
-![](./images/invalid-ui-element-exception-rpa-uipath.png)
+
 
 -   Add **Log Message activity** inside the **Exception block**
 -   Set **Log Level to Error**
 -   And then enter the Message as **Not Found Element** as shown below.
     
-![](./images/log-message-inside-exception-block-rpa-uipath.png)
+![](./images/e5.png)
 
 So, the error message will be displayed on the output screen when you
 run the sequence.
