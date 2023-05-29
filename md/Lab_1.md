@@ -2,9 +2,7 @@ Lab 1: Creating a Basic Process
 ===============================
 
 This tutorial teaches you how to create a basic process in Studio and run it on your machine. 
-The example opens a browser, loads a
-certain web page, scrapes information, and writes it to the
-**Output** panel, and in a Notepad file.
+The example opens a browser, loads a certain web page and refreshed the browser.
 
 
 #### Lab Solutions
@@ -37,23 +35,29 @@ Let’s begin.
     -   Select **Windows - Legacy** for the **Compatibility** option and **VB** for **Language**.
 
 3.  Click **Create**. The new project is opened in Studio.
+
 4.  Click on `Main.xaml` file to open Designer UI.
-5.  In the **Activities** panel, search for [**Open Browser**]
+
+5. Open `Google Chrome` and navigate to `https://www.uipath.com/product/studio`. You can use any supported browser, but make sure the required UiPath extension is installed.
+
+6.  In the **Activities** panel, search for **Use Application/Browser**
     and drag it to the **Designer** panel. Notice that the activity is
     automatically added inside a **Sequence**.
 
 ![](./images/browser.png)
 
-6.  In Use Open Browser, enter following URL:
-`"https://www.uipath.com/product/studio"`
 
-7.  From the **Activities** panel, add a **Refresh Browser** to the **Do** container of the **Use Application/Browser** activity.
+7. In `Use Application/Browser`, click **Indicate application to automate**, and then move the mouse pointer to the browser page you just opened. When the window is highlighted, click anywhere in the browser page.
+
+8. The `Use Application/Browser` activity is updated, the URL is added to the Browser URL field, and a screenshot of the window appears inside the activity.
+
+9.  From the **Activities** panel, add a **Navigate browser** > **Refresh** to the **Do** container of the **Use Application/Browser** activity.
 
 ![](./images/browser2.png)
 
-![](./images/browser3.png)
+10. Close the chrome tab where uipath URL was opened before starting the next step.
 
-8. In the ribbon, click **Run File** or use the **Ctrl + F6** shortcut to execute the project.
+11. In the ribbon, click **Run File** or use the **Ctrl + F6** shortcut to execute the project.
 
 **Note:** When the execution is completed, notice that the URL was displayed in browser and webpage was refreshed as well.
 
