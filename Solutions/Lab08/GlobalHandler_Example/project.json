@@ -1,20 +1,22 @@
 {
-  "name": "Exception_Handling_Example",
-  "description": "Blank Process",
+  "name": "GlobalHandler_Example",
+  "description": "Example of using the Global Handler and the Retry condition",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.11.4]",
-    "UiPath.Mail.Activities": "[1.12.2]",
-    "UiPath.System.Activities": "[21.10.2]",
-    "UiPath.UIAutomation.Activities": "[21.10.3]"
+    "UiPath.Excel.Activities": "[2.16.0]",
+    "UiPath.Mail.Activities": "[1.18.1]",
+    "UiPath.System.Activities": "[22.10.3]",
+    "UiPath.UIAutomation.Activities": "[22.10.2]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "21.10.3.0",
-  "projectVersion": "1.0.0",
+  "studioVersion": "21.10.0.0",
+  "projectVersion": "1.0.0.0",
   "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
     "requiresUserInteraction": true,
@@ -26,7 +28,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true
+    "mustRestoreAllDependencies": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -39,13 +41,13 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "4c57852d-99af-4d62-87f5-ff7699a5ad10",
+      "uniqueId": "6e34b320-6552-43c2-8f92-428ec77f3962",
       "input": [],
       "output": []
     }
@@ -53,5 +55,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Legacy"
+  "targetFramework": "Windows"
 }
