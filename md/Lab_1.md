@@ -2,7 +2,7 @@ Lab 1: Creating a Basic Process
 ===============================
 
 This tutorial teaches you how to create a basic process in Studio and run it on your machine. 
-The example opens a browser, loads a certain web page and refreshed the browser.
+The example opens a browser, loads a certain web page and refreshes the browser.
 
 
 #### Lab Solutions

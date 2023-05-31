@@ -41,10 +41,10 @@ Steps:
 2) Enter all details as shown in below screenshot:
 
 ```
-Gmail SMTP Server:	"smtp.gmail.com"
+SMTP Server:	    "smtp-mail.outlook.com"
 SMTP port:			587
-SMTP username:		"upathdemo@gmail.com"
-SMTP password:		"Robotics2021@"
+SMTP username:		"upathdemo@outlook.com"
+SMTP password:		"Robotics2023@"
 ```
 
 ![](./images/p2.png)
