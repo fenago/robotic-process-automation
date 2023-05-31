@@ -13,17 +13,14 @@ for library projects, only processes.
 The **Global Exception Handler** has two arguments,
 that should **not** be removed.
 
-
 The first argument is `errorInfo` with the **In** direction
 and it stores information about the error that was thrown and the
 workflow that failed. The level of the error to be logged can be set in
 the **Log Message** activity.
 
-
 Note: Use the `ActivityInfo` property for
 `errorInfo` to get the name of the activity which threw the
 exception and view it in the **Output** panel.
-
 
 The second argument, `result` has the **Out** direction and
 it is used for determining the next behavior of the process when it

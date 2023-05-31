@@ -24,21 +24,21 @@ actions similar to human ones:
 
 ![](./images/t1.png)
 
-2. In `Use Application/Browser`, click **Indicate application to automate**, and then move the mouse pointer to the cmd terminal you just opened. When the window is highlighted, click anywhere in the window.
+4. In `Use Application/Browser`, click **Indicate application to automate**, and then move the mouse pointer to the cmd terminal you just opened. When the window is highlighted, click anywhere in the window.
 
-8. The `Use Application/Browser` activity is updated, the Application Path is added and a screenshot of the window appears inside the activity.
+5. The `Use Application/Browser` activity is updated, the Application Path is added and a screenshot of the window appears inside the activity.
 
-8.  Add **Type Into** activity.
-9.  Select the activity and into the **Text** field, write "ipconfig".
+6.  Add **Type Into** activity.
+7.  Select the activity and into the **Text** field, write "ipconfig".
 
 ![](./images/c3b0a83-second_type_into.png)
 
-10. Add **Keyboard Shortcuts** activity below `Type Into` activity.
-11. Select the activity and from the drop-down menu select the **Add a shortcut manually** option. After that, select **Enter** key in `Send key combination`.
+8. Add **Keyboard Shortcuts** activity below `Type Into` activity.
+9. Select the activity and from the drop-down menu select the **Add a shortcut manually** option. After that, select **Enter** key in `Send key combination`.
 
 ![](./images/059256a-second_send_hotkey.png)
 
-12. Press F5. The automation is executed. The IP address, subnet mask
+10. Press F5. The automation is executed. The IP address, subnet mask
     and default gateway for all adapters are displayed in the Command
     Prompt.
 
