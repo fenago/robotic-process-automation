@@ -4,6 +4,49 @@ Lab 1: Creating a Basic Process
 This tutorial teaches you how to create a basic process in Studio and run it on your machine. 
 The example opens a browser, loads a certain web page and refreshes the browser.
 
+#### Create UiPath Account & Install Studio Desktop
+
+
+#### Step 1: Create a UiPath Account
+1. **Go to UiPath's Website**: Open your browser and navigate to [https://www.uipath.com](https://www.uipath.com).
+2. **Try UiPath Free**: Click on **"Try UiPath Free"** at the top right of the page and select **"Sign up"** if you don’t already have an account.
+3. **Fill Out the Sign-Up Form**: You can sign up with an email, Google account, or Microsoft account. Provide the required information and verify your email, if prompted.
+4. **Confirm Account**: Check your email for a verification link from UiPath. Click the link to confirm and activate your account.
+
+![](./images/s1.jpg)
+
+![](./images/s2.jpg)
+
+#### Step 2: Download UiPath Studio Desktop
+
+**Download UiPath Studio**: Find the download link for **UiPath Studio** and click **"Download"**.
+
+![](./images/s3.jpg)
+
+##### Step 3: Install UiPath Studio Desktop
+1. **Open the Installer**: Once the download is complete, locate the installer file (usually in your **Downloads** folder) and double-click it to start the installation.
+2. **Choose the Installation Type**: Select **"Community Edition"** if you're using a free account. Follow the prompts to complete the installation.
+3. **Sign in to UiPath Studio**: After installation, launch UiPath Studio. You'll be prompted to sign in using your UiPath Cloud account.
+4. **Select the Profile**: Choose **Studio** profile if prompted, which is suited for developing automations.
+
+![](./images/s4.jpg)
+
+![](./images/s5.jpg)
+
+![](./images/s6.jpg)
+
+![](./images/s7.jpg)
+
+![](./images/s8.jpg)
+
+![](./images/s9.jpg)
+
+Select **UiPath Sudio** option when prompted:
+
+![](./images/s10.jpg)
+
+![](./images/s11.jpg)
+
 
 #### Lab Solutions
 Lab solution(s) are present in `Solution\Lab01` folder.
